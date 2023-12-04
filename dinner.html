@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mai Place</title>
+
+</head>
+
+<body>
+
+    <center><a href="index.html">
+        <img src="logo.png" alt="logo">
+    </a></center>
+
+    <div class="navbar">
+        <a href="#kitchenApp" onclick="toggleDiv('kitchenApp')">Appetizers from Our Kitchen</a>
+        <a href="#sushiApp" onclick="toggleDiv('sushiApp')">Appetizers from Our Sushi Bar</a>
+        <a href="#salads" onclick="toggleDiv('salads')">Salads</a>
+        <a href="#soups" onclick="toggleDiv('soups')">Soups</a>
+        <a href="#houseSpecials" onclick="toggleDiv('houseSpecials')">House Specials</a>
+        <a href="#chicken" onclick="toggleDiv('chicken')">Chicken</a>
+        <a href="#beef" onclick="toggleDiv('beef')">Beef</a>
+        <a href="#healthyLight" onclick="toggleDiv('healthyLight')">Healthy and Light</a>
+        <a href="#seafood" onclick="toggleDiv('seafood')">Seafood</a>
+        <a href="#vegetables" onclick="toggleDiv('vegetables')">Vegetables</a>
+        <a href="#somethingFamiliar" onclick="toggleDiv('somethingFamiliar')">Something Familiar</a>
+        <a href="#noodle" onclick="toggleDiv('noodle')">Noodle</a>
+        <a href="#rice" onclick="toggleDiv('rice')">Rice</a>
+        <a href="#noodleBroth" onclick="toggleDiv('noodleBroth')">Noodle and Broth</a>
+        <a href="#sushiSashimi" onclick="toggleDiv('sushiSashimi')">Sushi & Sashimi A La Carte</a>
+        <a href="#maki" onclick="toggleDiv('maki')">Makimono</a>
+        <a href="#tempuraMaki" onclick="toggleDiv('tempuraMaki')">Tempura Maki</a>
+        <a href="#specialMaki" onclick="toggleDiv('specialMaki')">Special Maki</a>
+        <a href="#sushiEntree" onclick="toggleDiv('sushiEntree')">Entrees from Sushi Bar</a>
+        <a href="#sushiParty" onclick="toggleDiv('sushiParty')">Sushi Party Platter</a>
+    </div>
+
+
+        <div id="kitchenApp" class="content">
+            <h1 class="menu-sect">Appetizers from Our Kitchen</h1>
+        <p><span class="food">Eggroll (2 pcs)</span><span class="price">6.95</span></p>
+        <p><span class="food">Vegetarian Rolls (2 pcs)</span><span class="price">6.50</span></p>
+        <p><span class="food">Scallion Pancakes</span><span class="price">6.95</span></p>
+        <p><span class="food">Edamame</span><span class="price">7.50</span></p>
+        <p><span class="food">Crab Rangoon</span><span class="price">10.95</span></p>
+        <p><span class="food">Homemade Mai Raviolis with Pork (Steamed or Pan Fried)</span><span class="price">9.50</span></p>
+        <p><span class="food">Chicken Wings</span><span class="price">11.95</span></p>
+        <p><span class="sfood">Mai Buffalo Wings</span><span class="price">12.95</span></p>
+        <p><span class="food">Shrimp Shu-Mai (8 pcs Steamed or Deep Fried)</span><span class="price">8.50</span></p>
+        <p><span class="food">Beef Teriyaki (4 pcs)</span><span class="price">11.95</span></p>
+        <p><span class="food">Honey Boneless Spareribs</span><span class="price">10.95</span></p>
+        <p><span class="food">Chicken Fingers</span><span class="price">9.95</span></p>
+        <p><span class="food">Appetizer Combo for 2 (Additional Person $14.00)</span><span class="price">27.95</span></p>
+        <p><span class="desc">2 vegetable rolls, 2 beef teriyaki, 4 crab rangoon, 2 chicken wings,
+            6 chicken fingers & boneless ribs. <br>(Additional charge for substitution)</span></p>
+        <p><span class="food">Tidbits A</span><span class="price">16.95</span></p>
+        <p><span class="desc">Beef teriyaki, boneless spareribs, chicken wings & chicken fingers. <br>(Additional charge for substitution)</span></p>
+        <p><span class="food">Tidbits B</span><span class="price">15.95</span></p>
+        <p><span class="desc">Eggroll, boneless spareribs, chicken wings & crab rangoons. <br>(Additional charge for substitution)</span></p>
+        </div>
+       
+        <div id="sushiApp" class="content">
+            <h1 class="menu-sect">Appetizers from Our Sushi Bar</h1>
+        <p><span class="food">Sashimi Appetizer (Chef's choice)</span><span class="price">14.95</span></p>
+        <p><span class="desc">Assorted filet of raw fish.</span></p>
+        <p><span class="food">Sushi Appetizer (Chef's choice)</span><span class="price">12.95</span></p>
+        <p><span class="desc">5 pcs of assorted filets of fish on rice.</span></p>
+        <p><span class="sfood">Spicy Maguro Sashimi</span><span class="price">14.95</span></p>
+        <p><span class="desc">Thin slices of tuna served with a spicy sauce.</span></p>
+        <p><span class="sfood">Tuna Fireball</span><span class="price">15.95</span></p>
+        <p><span class="desc">Tuna, kani, tobiko, avocado & spicy mayonnaise served in a spicy sauce.</span></p>
+        <p><span class="sfood">Salmon Jalapeño</span><span class="price">12.95</span></p>
+        <p><span class="desc">Spicy crabmeat, shrimp, avocado wrapped with salmon, chili sauce & jalapeño</span></p>
+        <p><span class="food">Torch Tuna OR Salmon</span><span class="price">19.95</span></p>
+        <p><span class="desc">Shrimp, kani, avocado rolled with torch tuna or salmon topped with seaweed, spicy mayo, eel sauce & tempura flakes, topped with 4 different tobiko.</span></p>
+        <p><span class="sfood">Yellowtail Jalapeño</span><span class="price">14.95</span></p>
+        <p><span class="desc">Sliced yellowtail with jalapeño and ponzu sauce.</span></p>
+        <p><span class="sfood">Stuffed Jalapeño</span><span class="price">13.95</span></p>
+        <p><span class="desc">Salmon, mango, avocado, shrimp stuffed in a deep fried jalapeño with ponzu sauce & wasabi mayo topped with black pepper.</span></p>
+        <p><span class="food">Hamachi Kama</span><span class="price">13.95</span></p>
+        <p><span class="desc">Flame broiled season yellowtail cheek.</span></p>
+        <p><span class="sfood">Inari Pillows</span><span class="price">13.95</span></p>
+        <p><span class="desc">Fried bean curd stuffed with shrimp, kani, tobiko, avocado & spicy mayonnaise.</span></p>
+        <p><span class="sfood">Blacken Tuna</span><span class="price">13.95</span></p>
+        <p><span class="desc">Seared rare tuna with fresh cracked black pepper served with spicy mayo on a bed of turnip.</span></p>
+        </div>
+
+        <div id="salads" class="content">
+            <h1 class="menu-sect">Salads</h1>
+        <p><span class="food">Seaweed Salad</span><span class="price">5.95</span></p>
+        <p><span class="food">Cucumber Salad</span><span class="price">5.95</span></p>
+        <p><span class="sfood">Spicy Avocado Salad (Raw Seafood)</span><span class="price">8.50</span></p>
+        <p><span class="desc">Kani, avocado, cucumber & tobiko with spicy mayonnaise.</span></p>
+        <p><span class="sfood">Spicy Avocado Seafood Salad (Raw Seafood)</span><span class="price">11.95</span></p>
+        <p><span class="desc">Kani, shrimp, octopus, cucumber, tobiko & avocado with spicy mayonnaise.</span></p>
+        <p><span class="sfood">Chef Special Seafood Salad (Raw Seafood)</span><span class="price">14.95</span></p>
+        <p><span class="desc">Tuna, salmon, whitefish, kani, seaweed, tobiko, cucumber & chef special sauce.</span></p>
+        </div>
+
+
+
+        <div id="soups" class="content">
+            <h1 class="menu-sect">Soups</h1>
+        <p><span class="ssush" style="white-space: nowrap;">LG</span><span class="ssash">SM</span></p>
+        <p><span class="ssfish">Egg Drop Soup</span><span class="ssashp">4.25</span><span class="ssushp">8.00</span></p>
+        <p><span style="color:red" class="ssfish">Hot & Sour Soup (Meatless)</span><span class="ssashp">4.25</span><span class="ssushp">8.00</span></p>
+        <p><span class="ssfish">Chinese Vegetable Soup</span><span class="ssashp">4.25</span><span class="ssushp">8.00</span></p>
+        <p><span class="ssfish">Miso Soup</span><span class="ssashp">4.25</span><span class="ssushp">8.00</span></p>
+        <p><span class="ssfish">Wonton Soup (Hong Kong Style)</span><span class="ssashp">4.95</span><span class="ssushp">8.50</span></p>
+        <p><span class="desc">Dumplings filled with shrimp & pork in a clear broth.</span></p>
+
+
+    </div>
+
+        <div id="houseSpecials" class="content">
+        <h1 class="menu-sect">House Specials</h1>
+            <p><span class="food">Triple Delight With Mixed Vegetables</span><span class="price">20.95</span></p>
+            <p><span class="desc">Chicken, beef, and shrimp sauteed with mixed vegetables.</span></p>
+            <p><span class="food">Happy Family</span><span class="price">24.95</span></p>
+            <p><span class="desc">Shrimp, chicken, scallop & beef with mix vegetables in a brown sauce.</span></p>
+            <p><span class="food">Pineapple Chicken</span><span class="price">19.95</span></p>
+            <p><span class="desc">White chicken meat sauteed with pineapples & mixed vegetables.</span></p>
+            <p><span class="food">Mai Special Pineapple Shrimp with Glazed Walnuts</span><span class="price">22.50</span></p>
+            <p><span class="desc">Crispy shrimp with creamy pineapple sauce.</span></p>
+            <p><span class="food">Mango Delight with Chicken & Shrimp</span><span class="price">21.95</span></p>      
+            </div>
+
+        <div id="chicken" class="content">
+            <h1 class="menu-sect">Chicken</h1>
+            <p><span class="food">Sweet & Sour Chicken</span><span class="price">12.95</span></p>
+            <p><span class="sfood">Szechuan Chicken with Peanuts</span><span class="price">13.95</span></p>
+            <p><span class="food">Chicken with Cashew Nuts</span><span class="price">14.95</span></p>
+            <p><span class="sfood">Yu Hsiang Chicken</span><span class="price">14.95</span></p>
+            <p><span class="food">Moo Goo Gai Pan</span><span class="price">13.95</span></p>
+            <p><span class="sfood">General Gaus Chicken</span><span class="price">15.95</span></p>
+            <p><span class="desc">Crispy chicken sauteed with a spicy brown sauce.</span></p>   
+            <p><span class="food">Crispy Sesame Chicken</span><span class="price">15.95</span></p>
+            <p><span class="desc">Crispy chicken sauteed with a sweet sesame sauce.</span></p>   
+            <p><span class="sfood">Crispy Orange Chicken</span><span class="price">15.95</span></p>
+            <p><span class="desc">Crispy chicken sauteed with a spicy tangerine sauce.</span></p>   
+            <p><span class="sfood">Chun Liu Chicken</span><span class="price">14.75</span></p>
+            <p><span class="desc">Slices of white chicken meat sauteed with julienne green & red peppers in a spicy tangy sauce.</span></p>   
+            <p><span class="food">Chicken with Broccoli</span><span class="price">13.95</span></p>
+            <p><span class="sfood">Curry Chicken</span><span class="price">15.95</span></p>
+            <p><span class="sfood">Spicy Chicken with String Beans</span><span class="price">14.95</span></p>
+            <p><span class="sfood">Peppery Fried Chicken (Boneless)</span><span class="price">15.95</span></p>
+            <p><span class="desc">Crispy chicken sauteed with salt and pepper.</span></p>
+            <p><span class="food">Crispy Lemon Chicken</span><span class="price">15.95</span></p>   
+            <p><span class="sfood">Thai Basil Chicken</span><span class="price">16.95</span></p>
+            <p><span class="food">Chicken with Peapods</span><span class="price">16.95</span></p>
+            <p><span class="food">Chicken with Chinese Broccoli</span><span class="price">17.95</span></p>
+            <p><span class="food">Chicken with Black Bean Sauce</span><span class="price">16.95</span></p>
+            <p><span class="food">Ginger Scallion Chicken</span><span class="price">16.95</span></p>
+            <p><span class="food">Chicken with Mixed Vegetables</span><span class="price">14.95</span></p>
+
+        </div>
+
+        <div id="beef" class="content">
+            <h1 class="menu-sect">Beef</h1>
+            <p><span class="sfood">Szechuan Beef with Peanuts</span><span class="price">15.95</span></p>
+            <p><span class="food">Beef with Broccoli</span><span class="price">15.95</span></p>
+            <p><span class="sfood">Spicy Beef with String Beans</span><span class="price">15.95</span></p>
+            <p><span class="sfood">Thai Basil Beef</span><span class="price">18.95</span></p>
+            <p><span class="food">Beef with Fresh Mushrooms</span><span class="price">15.95</span></p>
+            <p><span class="sfood">Chun Liu Beef</span><span class="price">15.95</span></p>
+            <p><span class="desc">Slices of beef sauteed with julienne green & red peppers in a spicy tangy sauce.</span></p>
+            <p><span class="sfood">Crispy Orange Beef</span><span class="price">16.95</span></p>
+            <p><span class="desc">Crispy beef sauteed with a spicy tangerine sauce.</span></p>   
+            <p><span class="food">Crispy Sesame Beef</span><span class="price">16.95</span></p>
+            <p><span class="desc">Crispy beef sauteed with a sweet sesame sauce.</span></p>
+            <p><span class="food">Beef with Peapods</span><span class="price">16.95</span></p>
+            <p><span class="food">Beef with Chinese Broccoli</span><span class="price">18.95</span></p>
+            <p><span class="food">Crispy Aromatic Beef</span><span class="price">20.95</span></p>
+            <p><span class="food">Beef with Black Bean Sauce</span><span class="price">16.95</span></p>
+            <p><span class="food">Beef with Green Pepper</span><span class="price">16.95</span></p>
+            <p><span class="food">Beef with Onion</span><span class="price">16.95</span></p>      
+        </div>
+
+        <div id="healthyLight" class="content">
+            <h1 class="menu-sect">Healthy Light</h1>
+            <h2>Low calories and fat. No salt, sugar, starch, or MSG.</h2>
+            <p><span class="food">Steamed Vegetable Delight</span><span class="price">10.95</span></p>
+            <p><span class="food">Steamed Chicken with Broccoli</span><span class="price">12.95</span></p>
+            <p><span class="food">Steamed Double Flavor Delight</span><span class="price">19.95</span></p>
+            <p><span class="desc">Steamed shrimp & scallop with mixed vegetables.</span></p>
+        </div>
+
+        <div id="seafood" class="content">
+            <h1 class="menu-sect">Seafood</h1>
+            <p><span class="food">Lobster Sauce</span><span class="price">9.95</span></p>
+            <p><span class="food">Shrimp with Lobster Sauce</span><span class="price">13.95</span></p>
+            <p><span class="sfood">Crispy Peppery Prawns Without Shell & Head</span><span class="price">20.95</span></p>
+            <p><span class="sfood">Crispy Aromatic Shrimp</span><span class="price">20.95</span></p>
+            <p><span class="desc">Crispy prawns sauteed with sweet peppers, mushrooms, snow peas & broccoli with a spicy aromatic brown sauce.</span></p>
+            <p><span class="sfood">Crispy Fish Fillet in Szecuan Sauce</span><span class="price">16.95</span></p>
+            <p><span class="sfood">Szechuan Shrimp with Peanuts</span><span class="price">15.95</span></p>
+            <p><span class="food">Fish OR Shrimp with Mixed Vegetables</span><span class="price">16.95</span></p>
+            <p><span class="sfood">Yu Hsiang Double Delight</span><span class="price">17.95</span></p>
+            <p><span class="desc">Shrimp & scallop sauteed in a brown spicy sauce with mixed vegetables.</span></p>
+            <p><span class="food">Seafood Delight</span><span class="price">19.95</span></p>
+            <p><span class="desc">Shrimp, scallop, calamari & crab stick sauteed with mixed vegetables.</span></p>
+            <p><span class="sfood">Peppery Three Delight</span><span class="price">23.95</span></p>
+            <p><span class="desc">Crispy fried shrimp, calamari and scallop with hot salt & pepper.</span></p>
+            <p><span class="food">Sesame Shrimp</span><span class="price">18.95</span></p>
+            <p><span class="food">Shrimp with Broccoli</span><span class="price">18.95</span></p>
+            <p><span class="food">Ginger Scallion Shrimp</span><span class="price">19.95</span></p>
+            <p><span class="food">Shrimp with Black Bean Sauce</span><span class="price">19.95</span></p>
+
+        </div>
+
+        <div id="vegetables" class="content">
+            <h1 class="menu-sect">Vegetables</h1>
+            <p><span class="food">Vegetarian Delight</span><span class="price">10.95</span></p>
+            <p><span class="food">Tofu Family Style</span><span class="price">11.95</span></p>
+            <p><span class="sfood">Grandma Spicy Tofu (Meat or No Meat)</span><span class="price">11.95</span></p>
+            <p><span class="sfood">Yu Hsiang Broccoli</span><span class="price">12.95</span></p>
+            <p><span class="food">Chinese Broccoli with Oyster Sauce</span><span class="price">10.95</span></p>
+            <p><span class="sfood">Szechuan String Beans (Meat or No Meat)</span><span class="price">12.95</span></p>
+            <p><span class="sfood">Crispy Orange Flavored Tofu</span><span class="price">13.95</span></p>
+            <p><span class="sfood">Yu Hsiang Eggplant</span><span class="price">14.95</span></p>
+        </div>
+
+        <div id="somethingFamiliar" class="content">
+            <h1 class="menu-sect">Something Familiar</h1>
+            <p><span class="food">Chow Mein OR Chop Suey</span><span class="price">12.95</span></p>
+            <p><span class="desc">Choice of beef, chicken, pork, shrimp or vegetables.</span></p>  
+            <p><span class="food">Egg Foo Yong</span><span class="price">13.95</span></p>
+            <p><span class="desc">Choice of beef, chicken, roast pork, shrimp or vegetables.</span></p>  
+            <p><span class="food">Moo Shu (Extra Pancake $0.50 each)</span><span class="price">13.95</span></p>
+            <p><span class="desc">Choice of beef, chicken, shrimp, or vegetables served with 4 pancakes.</span></p> 
+        </div>
+
+
+        <div id="noodle" class="content">
+            <h1 class="menu-sect">Noodle & Pasta</h1>
+            <p><span class="food">Crispy Pan Fried Noodle</span><span class="price">8.95</span></p>
+            <p><span class="food">Lo Mein</span><span class="price">11.95</span></p>
+            <p><span class="desc">Choice of beef, chicken, roast pork, shrimp or vegetables.</span></p>  
+            <p><span class="food">House Lo Mein</span><span class="price">13.95</span></p>
+            <p><span class="desc">Egg noodle stir fried with pork, chicken & shrimp.</span></p>  
+            <p><span class="sfood">Singapore Style Rice Noodle</span><span class="price">11.95</span></p>
+            <p><span class="desc">Rice stick noodle & vegetables sauteed with curry.</span></p>  
+            <p><span class="sfood">Curry Flavored Thai Noodle</span><span class="price">15.95</span></p>
+            <p><span class="desc">Rice pasta with chicken & shrimp sauteed with curry.</span></p>  
+            <p><span class="food">Beef Thai Noodle & Bean Sprout</span><span class="price">14.95</span></p>
+            <p><span class="food">Hong Kong Style Chow Mein</span><span class="price">16.95</span></p>
+            <p><span class="desc">Chicken, beef & shrimp with mixed vegetables on top of crispy pan fried noodle.</span></p>
+            <p><span class="sfood">Sauteed Mai Udon Noodle</span><span class="price">16.95</span></p>
+            <p><span class="desc">Chicken, beef & shrimp with Japanese udon noodle.</span></p>
+            <p><span class="food">Seafood Noodle</span><span class="price">19.95</span></p>
+            <p><span class="desc">Shrimp, scallop, calamari, crab stick and vegetables on top of crispy pan fried noodle.</span></p>
+            <p><span class="sfood">Peking Noodle</span><span class="price">13.95</span></p>
+            <p><span class="desc">Soft noodle topped with brown sweet and spicy minced meat sauce.</span></p>
+            <p><span class="food">Pad Thai</span><span class="price">15.95</span></p>
+            <p><span class="desc">Thai rice noodle stir fried with chicken, shrimp, bean sprouts and topped with crushed peanuts.</span></p>
+            <p><span class="food">Vegetable Pad Thai with Fried Tofu & Egg</span><span class="price">13.95</span></p>
+        </div>
+
+        <div id="rice" class="content">
+            <h1 class="menu-sect">Rice</h1>
+            <h2>All fried rice are available to be made with brown rice for an additional $1.00. <br>All fried rice have egg.</h2>
+
+        <p><span class="food">Steam Rice (Cup)</span><span class="price">3.95</span></p>
+        <p><span class="food">Steam Brown Rice (Cup)</span><span class="price">3.95</span></p>
+        <p><span class="food">Fried Rice</span><span class="price">11.00</span></p>
+        <p><span class="desc">Choice of beef, chicken, roast pork, shrimp or vegetables</span></p>
+        <p><span class="food">House Special Fried Rice</span><span class="price">13.95</span></p>
+        <p><span class="desc">Roast pork, chicken, shrimp & eggs with mixed vegetables</span></p>
+        <p><span class="food">Fried Rice with Chinese Sausage</span><span class="price">14.95</span></p>
+        <p><span class="sfood">Thai Basil Fried Rice</span><span class="price">15.95</span></p>
+        <p><span class="desc">Choice of beef, chicken, roast pork, shrimp or vegetable tofu</span></p>
+        <p><span class="food">Pineapple Fried Rice</span><span class="price">15.95</span></p>
+        <p><span class="desc">Roast pork, chicken, shrimp & eggs with carrots and peas</span></p>        
+    </div>
+
+
+        <div id="noodleBroth" class="content">
+            <h1 class="menu-sect">Noodle in Broth - $15.95</h1>
+            <h2>An authentic Chinatown style noodle soup in a bowl of clear <br>broth and vegetables. <br>Choose one topping with a choice of noodle. <br>Each additional topping item will be $3.00</h2>
+
+        <p><span class="nbtopping" style="text-decoration: underline">Choice of One Topping</span></p>
+        <p><span class="nbnoodle" style="text-decoration: underline">Choice of One Noodle</span></p>
+        <p><span class="nbtopping">Wonton</span></p>
+        <p><span class="nbnoodle">Udon</span></p>
+        <p><span class="nbtopping">Beef</span></p>
+        <p><span class="nbnoodle">Rice Pasta</span></p>
+        <p><span class="nbtopping">Chicken</span></p>
+        <p><span class="nbnoodle">Vermicelli</span></p>
+        <p><span class="nbtopping">Shrimp</span></p>
+        <p><span class="nbnoodle">Thin Egg Noodle</span></p>
+        <p><span class="nbtopping" style="width: 80%">Mixed Vegetables</span></p>
+        </div>
+
+
+        <div id="sushiSashimi" class="content">
+
+            <h1 class="menu-sect">Sushi & Sashimi A La Carte</h1>
+            <p><span class="ssush">Nigiri</span><span class="ssash">Sashimi</span></p>
+            <p><span class="ssush" style="white-space: nowrap;">2 Pcs</span><span class="ssash">3 Pcs</span></p>
+            <p><span class="ssfish">Toro (Tuna Belly)</span><span class="ssashp">Mkt</span><span class="ssushp">Mkt</span></p>
+            <p><span class="ssfish">Maguro (Tuna)</span><span class="ssashp">8.95</span><span class="ssushp">6.95</span></p>
+            <p><span class="ssfish">Escolar (White Tuna)</span><span class="ssashp">7.95</span><span class="ssushp">5.95</span></p>
+            <p><span class="ssfish">Hamachi (Yellow Tail)</span><span class="ssashp">8.95</span><span class="ssushp">6.95</span></p>
+            <p><span class="ssfish">Sake (Salmon)</span><span class="ssashp">8.95</span><span class="ssushp">6.95</span></p>
+            <p><span class="ssfish">Hirame (Flute)</span><span class="ssashp">7.95</span><span class="ssushp">5.95</span></p>
+            <p><span class="ssfish">Suzuki (Sea Bass)</span><span class="ssashp">7.95</span><span class="ssushp">5.95</span></p>
+            <p><span class="ssfish">Saba (Mackeral)</span><span class="ssashp">7.95</span><span class="ssushp">5.95</span></p>
+            <p><span class="ssfish">Ika (Squid)</span><span class="ssashp">7.95</span><span class="ssushp">5.95</span></p>
+            <p><span class="ssfish">Tako (Octopus)</span><span class="ssashp">8.95</span><span class="ssushp">6.95</span></p>
+            <p><span class="ssfish">Amaebi (Sweet Shrimp)</span><span class="ssashp">6.95</span><span class="ssushp">5.95</span></p>
+            <p><span class="ssfish">Hokkigai (Surf Clam)</span><span class="ssashp">6.95</span><span class="ssushp">5.50</span></p>
+            <p><span class="ssfish">Hotategai (Scallop)</span><span class="ssashp">9.95</span><span class="ssushp">7.95</span></p>
+            <p><span class="sssfish">Spicy Hotategai (Spicy Scallop)</span><span class="ssashp">9.95</span><span class="ssushp">7.95</span></p>
+            <p><span class="ssfish">Tobiko (Flying Fish Roe)</span><span class="ssashp">8.00</span><span class="ssushp">6.00</span></p>
+            <p><span class="ssfish">Ikura (Salmon Roe)</span><span class="ssashp">10.00</span><span class="ssushp">8.00</span></p>
+            <p><span class="ssfish">Uni (Sea Urchin)</span><span class="ssashp">20.95</span><span class="ssushp">12.95</span></p>
+            <p><span class="ssfish">Avocado</span><span class="ssashp">5.95</span><span class="ssushp">3.95</span></p>
+            <p><span class="ssfish">Kani (Crab Stick)</span><span class="ssashp">8.00</span><span class="ssushp">6.00</span></p>
+            <p><span class="ssfish">Ebi (Shrimp)</span><span class="ssashp">8.00</span><span class="ssushp">6.00</span></p>
+            <p><span class="ssfish">Tamago (Sweet Egg)</span><span class="ssashp">6.25</span><span class="ssushp">4.75</span></p>
+            <p><span class="ssfish">Inari (Fried Bean Curd)</span><span class="ssashp">7.00</span><span class="ssushp">5.00</span></p>
+            <p><span class="ssfish">Unagi (Fresh Water Eel)</span><span class="ssashp">10.00</span><span class="ssushp">8.00</span></p>
+        </div>
+
+        <div id="maki" class="content">
+            <h1 class="menu-sect">Makimono</h1>
+            <h2>Handrolls available</h2>
+            <p><span class="food">Kapppa (Cucumber roll)</span><span class="price">4.95</span></p>
+            <p><span class="food">Avocado Maki</span><span class="price">4.95</span></p>
+            <p><span class="food">Avocado & Cucumber Maki</span><span class="price">5.75</span></p>
+            <p><span class="food">Sake (Salmon roll)</span><span class="price">6.95</span></p>
+            <p><span class="food">Tekka (Tuna roll)</span><span class="price">6.95</span></p>
+            <p><span class="food">Nechihama (Yellowtail & Scallion)</span><span class="price">7.25</span></p>
+            <p><span class="food">Tekkyu Maki (Tuna & cucumber)</span><span class="price">8.00</span></p>
+            <p><span class="food">Tuna & Avocado</span><span class="price">8.00</span></p>
+            <p><span class="food">Salmon & Avocado</span><span class="price">8.00</span></p>
+            <p><span class="food">Rainbow Roll</span><span class="price">12.95</span></p>
+            <p><span class="desc">Crabstick, avocado, cucumber with chef's choice of fish filet wrapped on the outside.</span></p>
+            <p><span class="food">Mai Special Salmon Maki</span><span class="price">12.95</span></p>
+            <p><span class="desc">Salmon, crabstick, cucumber, avocado & tobiko.</span></p>
+            <p><span class="food">Boston Maki</span><span class="price">8.50</span></p>
+            <p><span class="desc">Tuna, avocado, cucumber & tobiko.</span></p>
+            <p><span class="food">Philadelphia Maki</span><span class="price">9.75</span></p>
+            <p><span class="desc">Salmon, cream cheese, cucumber, scallion & tobiko.</span></p>
+            <p><span class="food">California with Flying Fish Roe on the Outside</span><span class="price">8.75</span></p>
+            <p><span class="food">Salmon Skin Maki</span><span class="price">8.00</span></p>
+            <p><span class="desc">Salmon skin, avocado, cucumber & scallion with eel sauce.</span></p>
+            <p><span class="sfood">Spicy Tuna Maki</span><span class="price">8.50</span></p>
+            <p><span class="desc">Tuna, cucumber, scallion, spicy mayonnaise & tempura flakes.</span></p>
+            <p><span class="sfood">Spicy Salmon Maki</span><span class="price">8.50</span></p>
+            <p><span class="desc">Salmon, cucumber, scallion, spicy mayonnaise & tempura flakes.</span></p>
+            <p><span class="sfood">Spicy Yellowtail Maki</span><span class="price">8.50</span></p>
+            <p><span class="desc">Yellowtail, cucumber, scallion, spicy mayonnaise & tempura flakes.</span></p>
+            <p><span class="sfood">Spicy White Tuna Maki</span><span class="price">7.75</span></p>
+            <p><span class="desc">White tuna, cucumber, scallion, spicy mayonnaise & tempura flakes.</span></p>
+            <p><span class="sfood">Spicy Crabstick Maki</span><span class="price">7.75</span></p>
+            <p><span class="desc">Crabstick, tobiko, spicy mayonnaise & tempura flakes.</span></p>
+            <p><span class="sfood">Spicy Scallop Maki (Cooked or Raw)</span><span class="price">9.75</span></p>
+            <p><span class="desc">Cooked scallop & spicy mayonnaise.</span></p>
+            <p><span class="sfood">Rock and Roll</span><span class="price">8.75</span></p>
+            <p><span class="desc">Salmon, avocado with spicy mayonnaise.</span></p>
+            <p><span class="food">Kani Roll (Crabstick)</span><span class="price">5.50</span></p>
+            <p><span class="food">California</span><span class="price">6.75</span></p>
+            <p><span class="desc">Crabstick, avocado, cucumber.</span></p>
+            <p><span class="food">Unagi Roll (Eel & avocado)</span><span class="price">8.75</span></p>
+            <p><span class="food">Unagkyu (Eel & cucumber)</span><span class="price">8.75</span></p>
+            <p><span class="food">Caterpillar</span><span class="price">14.95</span></p>
+            <p><span class="desc">Eel, cucumber roll with avocado on the outside.</span></p>
+            <p><span class="food">Scorpion Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Eel, cucumber roll with cooked shrimp on the outside.</span></p>
+            <p><span class="food">Mai Dragon Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Shrimp tempura roll with eel & avocado on the outside.</span></p>
+            <p><span class="food">Futo Maki</span><span class="price">7.95</span></p>
+            <p><span class="desc">Crabstick, sweet egg, cucumber & avocado.</span></p>
+        </div>
+
+        <div id="tempuraMaki" class="content">
+            <h1 class="menu-sect">Tempura Maki</h1>
+            <p><span class="food">Shrimp Tempura Maki</span><span class="price">8.95</span></p>
+            <p><span class="desc">Shrimp tempura, cucumber, tobiko, special sauce.</span></p>
+            <p><span class="food">Salmon Tempura Maki</span><span class="price">8.95</span></p>
+            <p><span class="desc">Salmon tempura, cucumber, tobiko, special sauce.</span></p>
+            <p><span class="sfood">Crazy Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Shrimp tempura, cucumber, avocado, tobiko, spicy mayonnaise & eel sauce.</span></p>
+            <p><span class="food">Idaho Maki</span><span class="price">9.95</span></p>
+            <p><span class="desc">Sweet potato tempura, special sauce.</span></p>
+     </div>
+
+        <div id="specialMaki" class="content">
+            <h1 class="menu-sect">Special Maki</h1>
+            <p><span class="sfood">Arizona Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Spicy kani, shrimp, tempura flakes wrapped with avocado topped with 4 different tobiko and wasabi mayonnaise sauce.</span></p>
+            <p><span class="sfood">House Special Sake Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Shrimp, kani, cucumber, tobiko, spicy mayonnaise & tempura flakes, wrapped with salmon, avocado.</span></p>
+            <p><span class="food">Dancing Eel Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Kani, avocado, cucumber with eel & tobiko.</span></p>
+            <p><span class="sfood">Kiss Fire</span><span class="price">14.95</span></p>
+            <p><span class="desc">Shrimp, avocado, spicy mayo & tempura flakes.  Outside with tuna & white tuna, wasabi mayo, jalapeño & Siracha sauce</span></p>
+            <p><span class="food">Tropical Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Kani, shrimp, tempura flakes wrapped with mango & topped with pineapple & coconut sauce.</span></p>
+            <p><span class="sfood">Spider Maki</span><span class="price">15.95</span></p>
+            <p><span class="desc">Soft shell crab tempura, cucumber, avocado, scallion, spicy mayonnaise topped with tobiko & eel sauce.</span></p>
+            <p><span class="sfood">Fantasy Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Shrimp tempura inside with spicy tuna on top.</span></p>
+            <p><span class="food">Snow Mountain Maki</span><span class="price">15.95</span></p>
+            <p><span class="desc">Shrimp tempura inside, layered with crab mixed with mayo on the outside topped with tempura flakes & eel sauce.</span></p>
+            <p><span class="sfood">Crazy Dragon Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Spicy crabstick, salmon, tempura flake inside wrapped with avocado & topped with different tobiko & wasabi mayo.</span></p>
+            <p><span class="sfood">Million Dollar Maki</span><span class="price">15.95</span></p>
+            <p><span class="desc">Spicy yellowtail with tempura flakes topped with tuna, salmon, spicy mayo & tempura flakes.</span></p>
+            <p><span class="sfood">Washington Maki (No Rice)</span><span class="price">14.95</span></p>
+            <p><span class="desc">Cucumber rolled with kani, salmon, shrimp, tobiko, avocado & spicy mayonnaise.</span></p>
+            <p><span class="sfood">Valentine Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Cucumber rolled with tuna, salmon, white tuna & avocado with a special spicy sauce.</span></p>
+            <p><span class="sfood">Sunset Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Shrimp, kani, avocado, cucumber, tobiko, tempura flakes topped with a spicy tuna & spicy salmon.</span></p>
+            <p><span class="sfood">Volcano Maki</span><span class="price">13.95</span></p>
+            <p><span class="desc">Tuna roll wrapped with white fish, fried topped with spicy sauce.</span></p>
+            <p><span class="sfood">Mad Salmon Maki</span><span class="price">14.95</span></p>
+            <p><span class="desc">Deep fried salmon roll topped with bake spicy kani & crayfish salad, tobiko, scallion & eel sauce.</span></p>
+            <p><span class="sfood">Olympus Maki</span><span class="price">15.95</span></p>
+            <p><span class="desc">Spicy tuna wrapped with chef's choice of fish filet and topped with 4 different tobiko.</span></p>
+            <p><span class="sfood">Crispy Tuna Maki</span><span class="price">12.95</span></p>
+            <p><span class="desc">Tuna, avocado, scallion, spicy mayonnaise with wasabi mayonnaise on the outside.</span></p>
+            <p><span class="sfood">Idaho Extreme</span><span class="price">14.95</span></p>
+            <p><span class="desc">Idaho maki topped with kani, crayfish, avocado, mango, tempura flakes with mayo sauce laced with wasabi mayo.</span></p>
+            <p><span class="sfood">Fuji Maki</span><span class="price">16.95</span></p>
+            <p><span class="desc">Shrimp California roll with tobiko topped with spicy cooked scallops.</span></p>
+        </div>
+
+        <div id="sushiEntree" class="content">
+            <h1 class="menu-sect">Entrees from Sushi Bar (Chef Choice)</h1>
+            <p><span class="food">Sushi Regular</span><span class="price">24.95</span></p>
+            <p><span class="desc">8 nigiri with California roll.</span></p>
+            <p><span class="food">Sushi Deluxe</span><span class="price">26.95</span></p>
+            <p><span class="desc">10 nigiri with spicy tuna maki.</span></p>
+            <p><span class="food">Sushi & Sashimi</span><span class="price">38.95</span></p>
+            <p><span class="desc">8 nigiri & 15 pieces of sashimi.</span></p>
+            <p><span class="food">Sashimi Regular</span><span class="price">25.95</span></p>
+            <p><span class="desc">15 pieces of fresh sliced fish with rice on the side.</span></p>
+            <p><span class="food">Sashimi Deluxe</span><span class="price">29.95</span></p>
+            <p><span class="desc">18 pieces of fresh sliced fish with rice on the side.</span></p>
+            <p><span class="food">Maki Combo</span><span class="price">18.95</span></p>
+            <p><span class="desc">Tuna maki, salmon maki & California roll.</span></p>
+            <p><span class="food">Chirashi</span><span class="price">25.95</span></p>
+            <p><span class="desc">An assortment of Chef choice sashimi on a bed of sushi rice.</span></p>
+            <p><span class="sfood">Temaki Combo</span><span class="price">21.95</span></p>
+            <p><span class="desc">Spicy tuna handroll, spicy salmon handroll & spicy yellowtail handroll.</span></p>
+        </div>
+
+        <div id="sushiParty" class="content">
+            <h1 class="menu-sect">Sushi Party Platter (Chef Choice)</h1>
+            <p><span class="food">Maki Platter for 2</span><span class="price">34.95</span></p>
+            <p><span class="desc">California roll, spicy tuna roll, spicy salmon roll, unagi roll, tuna roll & cucumber roll.</span></p>
+            <p><span class="food">Maki Platter for 4</span><span class="price">59.95</span></p>
+            <p><span class="desc">California roll, spicy tuna roll, spicy salmon roll, unagi roll, Boston maki, salmon tempura maki, Necihama & Crazy maki.</span></p>
+            <p><span class="food">Party Boat - Small (22 Pieces)</span><span class="price">39.95</span></p>
+            <p><span class="desc">7 nigiri, 9 sashimi & California roll.</span></p>
+            <p><span class="food">Party Boat - Medium (36 Pieces)</span><span class="price">54.95</span></p>
+            <p><span class="desc">9 nigiri, 9 sashimi, tuna maki, salmon maki & California roll.</span></p>
+            <p><span class="food">Party Boat - Supreme (78 Pieces)</span><span class="price">106.95</span></p>
+            <p><span class="desc">15 nigiri, 15 sashimi, 2 California roll, 2 spicy tuna maki, 2 salmon maki & 2 unagi with avocado maki.</span></p>
+       </div>
+
+       <script src="script.js"></script>
+
+
+    </body>
+    
+</html>
